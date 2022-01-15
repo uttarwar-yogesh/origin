@@ -1,4 +1,4 @@
-FROM golang:1.12-stretch
+FROM golang:rc-stretch
 
 RUN dpkg --add-architecture armel \
     && dpkg --add-architecture armhf \
